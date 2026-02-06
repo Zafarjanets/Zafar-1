@@ -1,0 +1,283 @@
+* {
+    margin: 0px;
+}
+
+.all {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.all1 {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.button {
+    padding: 8px 18px;
+    background-color: #FF7143;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+
+.allp {
+    border-bottom: 2px solid #5454D4;
+}
+
+.h1menu {
+    display: none;
+}
+
+.text {
+    width: 330px;
+    margin-top: 120px;
+}
+
+.text p {
+    margin: 15px 0px;
+}
+
+.texth1 {
+    font-size: 45px;
+}
+
+.dis {
+    display: flex;
+
+    justify-content: space-evenly;
+}
+
+.dis img {
+    width: 460px;
+    margin-top: 50px;
+}
+
+.button1 {
+    padding: 9px 25px;
+    background-color: #5454D4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.d {
+    background-color: white;
+    color: #5454D4;
+}
+
+.c {
+    margin-left: -24px;
+}
+
+.menjer {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.imgc img {
+    width: 300px;
+}
+
+.cord img {
+    width: 160px;
+}
+
+.cord {
+    width: 300px;
+    text-align: center;
+}
+
+.obsh {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.button2 {
+    background-color: whitesmoke;
+    width: 230px;
+    justify-content: space-around;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.button3 {
+    padding: 8px 40px;
+    border-radius: 10px 0px 0px 10px;
+    border: none;
+    background-color: #5454D4;
+    color: white;
+    margin-left: -10px;
+}
+
+.button4 {
+    border: none;
+    margin-left: -10px;
+
+}
+
+.divobw {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    align-items: center;
+}
+
+.divobw h1 {
+    width: 300px;
+}
+
+.what {
+    background-color: whitesmoke;
+    width: 250px;
+    height: 330px;
+    text-align: center;
+}
+
+.what p {
+
+    padding: 20px;
+}
+
+.button5 {
+    padding: 8px 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: white;
+    color: #5454D4;
+}
+
+.oxir {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 110px;
+    margin-top: 50px;
+}
+
+.center {
+    background-color: #FF7143;
+    width: 280px;
+    height: 350px;
+    margin-top: -10px;
+    text-align: center;
+    color: white;
+}
+
+.center p {
+
+    padding: 20px;
+}
+
+.z {
+    background-color: #9F3919;
+    color: white;
+}
+
+.what:hover {
+    margin-top: -5px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.08);
+    animation: all 2s ease;
+}
+
+.center:hover {
+    margin-top: -6px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.08);
+    animation: all 2s ease;
+
+}
+
+.cord:hover {
+    margin-top: -5px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.08);
+    animation: all 2s ease;
+    border-radius: 20px;
+    background-color: whitesmoke;
+}
+.menjer img:hover{
+    margin-top: -5px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.08);
+    animation: all 2s ease;
+    background-color: rgb(225, 225, 225);
+    border-radius: 4px;
+}
+
+@media(max-width:510px) {
+
+
+    .all1 {
+        display: none;
+    }
+
+    .allmedia {
+        display: flex;
+        align-items: center;
+        gap: 100px;
+
+    }
+
+    .h1menu {
+        display: block;
+        font-size: 40px;
+    }
+
+    .dis {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .dis img {
+        width: 300px;
+    }
+
+    .menjer {
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .menjer img {
+        margin-top: 50px;
+        width: 150px;
+    }
+
+    .f {
+        flex-direction: column-reverse;
+    }
+
+    .cord {
+        background-color: whitesmoke;
+        border-radius: 20px;
+        min-width: 60%;
+    }
+
+    .obsh {
+        gap: 20px;
+        overflow: auto;
+        margin-top: 30px;
+    }
+
+    .divobw {
+        flex-direction: column;
+    }
+
+    .button2 {
+        margin-top: 30px;
+    }
+
+    .divobw h1 {
+        text-align: center;
+    }
+
+    .what,
+    .center {
+        min-width: 60%;
+    }
+
+    .oxir {
+        gap: 20px;
+        overflow: auto;
+        margin-left: -20px;
+    }
+}
